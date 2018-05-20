@@ -1,0 +1,53 @@
+body {
+    height: 100%;
+    background-color: black;
+}
+
+// Title
+.title {
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    background: linear-gradient(black,white);
+    border-radius: 20px;
+}
+
+// Circle
+.circle-div {
+    margin-top: 50px;
+    height: 50px;
+
+    .circle {
+        margin-left: 50%;
+        height: 3px;
+        width: 3px;
+        border-radius: 100%;
+        background-color: red;
+        transform: translate(-50%, -50%);
+    }
+}
+
+// Option
+.row-option {
+    justify-content: center;
+
+    .col-option {
+        justify-content: center;
+        text-align: center;
+        background-color: rgba($color: white, $alpha: 0.5);
+    }
+}
+
+.div-canvas {
+    height: 10vh;
+    cursor: crosshair;
+}
+
+// Canvas 
+.buttons-canvas {
+    text-align: center;
+}
+
+
+
