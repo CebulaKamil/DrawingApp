@@ -40,11 +40,14 @@ body {
 }
 
 .div-canvas {
-    height: 10vh;
     cursor: crosshair;
+
+    canvas {
+        background-color: white;
+    }
 }
 
-// Canvas 
+// Canvas button
 .buttons-canvas {
     text-align: center;
 }
